@@ -6,7 +6,7 @@ import { db } from '../firebase.js';
 import { setDoc,doc } from 'firebase/firestore';
 import './login.css'
 import { auth } from '../firebase.js';
-import { Promise } from 'mongoose';
+
 const signup = () => {
   const [register,setregister]=useState({name:"", email:"", password:""});
 
