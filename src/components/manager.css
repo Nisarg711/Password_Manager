@@ -1,0 +1,214 @@
+.manage{
+ top: 65px;
+ position: relative;
+ color: white;
+}
+.manage{
+    height: 100vh;
+    background: rgb(62,8,107);
+    background: linear-gradient(0deg, rgba(62,8,107,1) 35%, rgba(0,1,1,1) 78%);
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+p{
+    text-align: center;
+   
+}
+a{
+    margin: 0px;
+}
+.name{
+    position: relative;
+    width: 70%;
+}
+.flex{
+    display: flex;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+}
+.password{
+     position: relative;
+     width: 40%;
+     display:flex;
+}
+lord-icon{
+    height: 18px;
+}
+.icon:hover{
+    cursor: pointer;
+}
+.container{
+        display: flex ;
+        flex-direction: column;
+        justify-content: center;
+        /* margin: auto; */
+        left: 18%;
+       right: 18%;
+        top: 20vh;
+        position: absolute;
+        gap: 15px;
+}
+.ht{
+    height: 25px;
+    font-size: 18px;
+}
+.ip2{
+    display: flex;
+   
+}
+.btn{
+    top: 5px;
+    position: relative;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    text-align: center;
+}
+.btn2{
+    border-radius: 30px;
+    height: 45px;
+    display: flex;
+    width: fit-content;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(37, 220, 37);
+    font-size: 15px;
+}
+.btn2:hover{
+    cursor: pointer;
+    filter: brightness(140%);
+}
+.pass{
+    width: 100%;
+    border-radius: 10px;
+    padding: 2px;
+    /* height: 20px; */
+    position: relative;
+    left: 32px;
+}
+.del{
+    width: 25px;
+    height: 30px;
+    position: sticky;
+}
+.del:hover{
+    cursor: pointer;
+}
+
+.table{
+    position: relative;
+    margin-top: 50px;
+}
+table{
+    width: 100%;
+   position: relative;
+   top: 20px;
+   text-align: center;
+}
+table th{
+    background-color: rgb(70, 198, 70);
+    color: black;
+    padding: 3px;
+}
+table td{
+    padding: 5px;
+   color: black;
+}
+table tr{
+    background-color: rgb(198, 240, 198);
+}
+
+.cells{
+    display:flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.info{
+    position: relative;
+    width: 60%;
+    display: block;
+
+}
+@media  screen and (max-width:1100px)
+{
+    lord-icon{
+        width: 15px;
+    }
+    
+}
+
+@media  screen and (max-width:800px)
+{
+    .info{
+        font-size: 10px;
+        overflow: auto;
+    }
+    .pass{
+        font-size: 10px;
+    }
+    
+    
+}
+.cover{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+@media  screen and (max-width:500px)
+{
+    lord-icon{
+        width: 12px;
+    }
+ 
+}
+@media  screen and (max-width:600px)
+{
+   .password{
+    width: 50%;
+    }
+   .info .name{
+    width: 50% ;
+}
+.ht{
+    font-size: 10px;
+}
+ 
+}
+
+@media screen and (max-width:490px)
+{
+    .ip2{
+        flex-direction: column;
+        gap: 15px;
+    }
+    .name{
+        width: 100%;
+    }
+    .password{
+        width: 100%;
+    }
+    .del{
+        left: 100%;
+    }
+    .pass{
+        position: absolute;
+        left: 0px;
+    }
+}
+@media screen and (max-width:410px)
+{
+    table th{
+        font-size: 12px;
+    }
+    .cells{
+        justify-content: space-evenly;
+    }
+}
+@media screen and (max-width:380px)
+{
+   table td{
+    padding: 0px;
+   }
+}
